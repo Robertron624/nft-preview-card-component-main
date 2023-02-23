@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    
+
+    --very-dark-blue--main-BG: hsl(217, 54%, 11%);
+    --very-dark-blue--card-BG: hsl(216, 50%, 16%);
+    --very-dark-blue--line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+
+    background: var(--very-dark-blue--main-BG);
+
+    font-family: 'Outfit', sans-serif;
+}
+
+p, h1 {
+    margin: 0;
+}
+
+.card {
+    background: var(--very-dark-blue--card-BG);
+    max-width: 22rem;
+    margin: 3rem 0;
+    border-radius: 20px;
+}
+
+.hero-container {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.hero-container img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card-body {
+    padding: 1rem 1.5rem 2rem 1.5rem;
+}
+
+.card-body h1 {
+    color: var(--white);
+    margin-bottom: 1.2rem;
+    font-size: 1.4rem;
+}
+
+.card-body p {
+    color: var(--soft-blue);
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.price-time{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid var(--very-dark-blue--line);
+    margin-bottom: 1rem;
+}
+
+.price {
+    color: var(--cyan);
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    color: var(--soft-blue);
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+.creator img {
+    width: 30px;
+    height: 30px;
+}
+
+.creator p {
+    margin-bottom: 0;
+    font-size: .875rem;
+}
+
+.creator span {
+    color: var(--white);
+}
