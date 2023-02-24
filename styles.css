@@ -28,7 +28,7 @@ p, h1 {
 .card {
     background: var(--very-dark-blue--card-BG);
     max-width: 22rem;
-    margin: 3rem 0;
+    margin: 3rem 1rem;
     border-radius: 20px;
     box-shadow: 0px 20px 40px rgba(0,0,0,0.4);;
 }
@@ -63,8 +63,7 @@ p, h1 {
     position: relative;
     top: 50%;
     left: 50%;
-    margin-left: -20px;
-    margin-top: -50px;
+    transform: translate(-50%, -50%);
 }
 
 .hero-container .hero-image {
