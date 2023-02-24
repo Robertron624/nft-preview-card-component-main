@@ -25,13 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://user-images.githubusercontent.com/72587880/221096070-c7120f26-d060-4f95-977e-821997152d5a.png)
 
 
 ### Links
 
 - Solution URL: [Solution URL here](https://github.com/Robertron624/nft-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL here](https://adorable-klepon-3b064e.netlify.app/)
 
 ## My process
 
