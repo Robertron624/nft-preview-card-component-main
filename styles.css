@@ -30,11 +30,20 @@ p, h1 {
     max-width: 22rem;
     margin: 3rem 0;
     border-radius: 20px;
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.4);;
 }
 
 .hero-container {
     padding: 1rem 1.5rem 1rem 1.5rem;
     position: relative;
+}
+
+.hero-inner {
+    cursor: pointer;
+}
+
+.hero-inner:hover .hero-overlay{
+    opacity: .5;
 }
 
 .hero-overlay {
@@ -48,10 +57,19 @@ p, h1 {
     transition: .5s ease-in-out;
 }
 
-.hero-container img {
+.overlay-see {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -50px;
+}
+
+.hero-container .hero-image {
     width: 100%;
     border-radius: 20px;
-    cursor: pointer;
 }
 
 .hero-container img:hover :has(.hero-overlay){
@@ -113,6 +131,8 @@ p, h1 {
 .creator img {
     width: 30px;
     height: 30px;
+    border: 1px solid var(--white);
+    border-radius: 50%;
 }
 
 .creator p {
